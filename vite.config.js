@@ -9,7 +9,7 @@ export default defineConfig({
       name: "eventourage-remote-racer",
       filename: "remoteEntry.js",
       exposes: {
-        "./Button": "./src/Button",
+        "./RacerGame": "./src/App",
       },
       shared: ["react", "react-dom"],
     }),
